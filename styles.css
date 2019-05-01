@@ -127,6 +127,10 @@ h4{
   text-align: center;
 }
 
+h5{
+  color: ffffff;
+}
+
 #resume, #portfolio, #coverletter, #jobboard, #prep, #culturefit,
 #techinterview, #followup, #vancouver, #toronto, #victoria, #calgary, #montreal{
     display: none;
