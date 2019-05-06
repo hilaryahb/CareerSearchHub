@@ -129,7 +129,8 @@ h4, h5{
 
 h5 {
   color: ffffff;
-  text-size: 12px; 
+  font-family: "proxima-nova", sans-serif;
+  text-size: 18px; 
 }
 
 #resume, #portfolio, #coverletter, #jobboard, #prep, #culturefit,
