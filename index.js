@@ -165,4 +165,3 @@ $('.resumeheading').on('click', function() {
              )
 
 })
-
