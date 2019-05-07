@@ -123,10 +123,10 @@ $('.resumeheading').on('click', function() {
         $('.vancouver').on('click', function() {
           if($('#vancouver').css('display') !== 'none'){
            $('#vancouver').slideUp()
-           $('#toronto').hide()
-            $('#victoria').hide()
-            $('#calgary').hide()
-            $('#montreal').hide()
+           $('#toronto').css('display') == 'none')
+           $('#victoria').css('display') == 'none')
+           $('#calgary').css('display') == 'none')
+           $('#montreal').css('display') == 'none')
           }else{
              $('#vancouver').slideDown()
            }
