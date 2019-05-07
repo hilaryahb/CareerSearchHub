@@ -11,7 +11,7 @@ $('.applications').on('click', function() {
   $('.interviewskills').hide()
   $('.networking').hide()
   $('.huntr').hide()
-  $('.application').show()
+  $('.application').slideDown()
 
   }
 )
@@ -20,7 +20,7 @@ $('.GitHub').on('click', function() {
   $('.interviewskills').hide()
   $('.networking').hide()
   $('.huntr').hide()
-  $('.github').show()
+  $('.github').slideDown()
   }
 )
 
@@ -29,7 +29,7 @@ $('.interviews').on('click', function() {
   $('.github').hide()
   $('.networking').hide()
   $('.huntr').hide()
-  $('.interviewskills').show()
+  $('.interviewskills').slideDown()
   }
 )
 
@@ -44,7 +44,7 @@ $('.Networking').on('click', function() {
   $('.github').hide()
   $('.interviewskills').hide()
   $('.huntr').hide()
-  $('.networking').show()
+  $('.networking').slideDown()
   }
 )
 
@@ -121,67 +121,48 @@ $('.resumeheading').on('click', function() {
         )
 
         $('.vancouver').on('click', function() {
-          if($('#vancouver').css('display') !== 'none'){
+          if($('#vancouver').css('display') !== 'none')
            $('#vancouver').slideUp()
-           $('#toronto').css('display') == 'none')
-           $('#victoria').css('display') == 'none')
-           $('#calgary').css('display') == 'none')
-           $('#montreal').css('display') == 'none')
-          }else{
+           else{
              $('#vancouver').slideDown()
            }
            }
          )
          $('.toronto').on('click', function() {
-           if($('#toronto').css('display') !== 'none'){
+           if($('#toronto').css('display') !== 'none')
             $('#toronto').slideUp()
-           $('#vancouver').hide()
-            $('#victoria').hide()
-            $('#calgary').hide()
-            $('#montreal').hide()
-           }else{
+            else{
               $('#toronto').slideDown()
             }
             }
           )
 
           $('.victoria').on('click', function() {
-            if($('#victoria').css('display') !== 'none'){
+            if($('#victoria').css('display') !== 'none')
              $('#victoria').slideUp()
-              $('#vancouver').hide()
-            $('#toronto').hide()
-            $('#calgary').hide()
-            $('#montreal').hide()
-            }else{
+             else{
                $('#victoria').slideDown()
              }
              }
            )
 
            $('.calgary').on('click', function() {
-             if($('#calgary').css('display') !== 'none'){
+             if($('#calgary').css('display') !== 'none')
               $('#calgary').slideUp()
-             $('#vancouver').hide()
-            $('#toronto').hide()
-            $('#victoria').hide()
-            $('#montreal').hide()
-             }else{
+              else{
                 $('#calgary').slideDown()
               }
               }
             )
 
             $('.montreal').on('click', function() {
-              if($('#montreal').css('display') !== 'none'){
+              if($('#montreal').css('display') !== 'none')
                $('#montreal').slideUp()
-                $('#vancouver').hide()
-            $('#toronto').hide()
-            $('#victoria').hide()
-            $('#calgary').hide()
-              }else{
+               else{
                  $('#montreal').slideDown()
                }
                }
              )
 
 })
+
