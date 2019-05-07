@@ -121,44 +121,64 @@ $('.resumeheading').on('click', function() {
         )
 
         $('.vancouver').on('click', function() {
-          if($('#vancouver').css('display') !== 'none')
+          if($('#vancouver').css('display') !== 'none'){
            $('#vancouver').slideUp()
-           else{
+           $('#toronto').hide()
+            $('#victoria').hide()
+            $('#calgary').hide()
+            $('#montreal').hide()
+          }else{
              $('#vancouver').slideDown()
            }
            }
          )
          $('.toronto').on('click', function() {
-           if($('#toronto').css('display') !== 'none')
+           if($('#toronto').css('display') !== 'none'){
             $('#toronto').slideUp()
-            else{
+           $('#vancouver').hide()
+            $('#victoria').hide()
+            $('#calgary').hide()
+            $('#montreal').hide()
+           }else{
               $('#toronto').slideDown()
             }
             }
           )
 
           $('.victoria').on('click', function() {
-            if($('#victoria').css('display') !== 'none')
+            if($('#victoria').css('display') !== 'none'){
              $('#victoria').slideUp()
-             else{
+              $('#vancouver').hide()
+            $('#toronto').hide()
+            $('#calgary').hide()
+            $('#montreal').hide()
+            }else{
                $('#victoria').slideDown()
              }
              }
            )
 
            $('.calgary').on('click', function() {
-             if($('#calgary').css('display') !== 'none')
+             if($('#calgary').css('display') !== 'none'){
               $('#calgary').slideUp()
-              else{
+             $('#vancouver').hide()
+            $('#toronto').hide()
+            $('#victoria').hide()
+            $('#montreal').hide()
+             }else{
                 $('#calgary').slideDown()
               }
               }
             )
 
             $('.montreal').on('click', function() {
-              if($('#montreal').css('display') !== 'none')
+              if($('#montreal').css('display') !== 'none'){
                $('#montreal').slideUp()
-               else{
+                $('#vancouver').hide()
+            $('#toronto').hide()
+            $('#victoria').hide()
+            $('#calgary').hide()
+              }else{
                  $('#montreal').slideDown()
                }
                }
