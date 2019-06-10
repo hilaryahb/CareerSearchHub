@@ -1,5 +1,5 @@
-$(document).ready(function() {
-  $('.application').hide()
+function load() {
+ $('.application').hide()
   $('.github').hide()
   $('.interviewskills').hide()
   $('.networking').hide()
@@ -164,4 +164,4 @@ $('.resumeheading').on('click', function() {
                }
              )
 
-})
+}
