@@ -3,15 +3,15 @@ $(document).ready(function() {
   $('main').empty()
   $('#login-button').click(() => {
     let password = $('#password').val()
-    if (password === 'MONKEY') {
+    if (password === 'LHL2019') {
       setTimeout(() => {
         console.log(password)
         $('#login-form').hide()
         $('main').html(mainContent)
-        load()  
-      }, 1000)
+        load()
+      }, 500)
     } else {
-      alert("WRONG")
+      alert("Incorrect Password")
     }
   })
 })
