@@ -3,7 +3,7 @@ $(document).ready(function() {
   $('main').empty()
   $('#login-button').click(() => {
     let password = $('#password').val()
-    if (password === 'LHL2019') {
+    if (password === 'LHLCS') {
       setTimeout(() => {
         console.log(password)
         $('#login-form').hide()
