@@ -3,24 +3,36 @@ function load() {
   $('.github').hide()
   $('.interviewskills').hide()
   $('.networking').hide()
-  $('.huntr').hide()
+    $('.strategy').hide()
   $('.resume').hide()
+  $('.boards').hide()
 
 $('.applications').on('click', function() {
   $('.github').hide()
   $('.interviewskills').hide()
   $('.networking').hide()
-  $('.huntr').hide()
+  $('.strategy').hide()
   $('.application').slideDown()
+  $('.boards').hide()
+  }
+)
 
+$('.JobBoards').on('click', function() {
+  $('.github').hide()
+  $('.interviewskills').hide()
+  $('.networking').hide()
+    $('.strategy').hide()
+  $('.boards').slideDown()
+  $('.application').hide()
   }
 )
 $('.GitHub').on('click', function() {
   $('.application').hide()
   $('.interviewskills').hide()
   $('.networking').hide()
-  $('.huntr').hide()
+    $('.strategy').hide()
   $('.github').slideDown()
+  $('.boards').hide()
   }
 )
 
@@ -28,8 +40,9 @@ $('.interviews').on('click', function() {
   $('.application').hide()
   $('.github').hide()
   $('.networking').hide()
-  $('.huntr').hide()
+    $('.strategy').hide()
   $('.interviewskills').slideDown()
+  $('.boards').hide()
   }
 )
 
@@ -43,8 +56,19 @@ $('.Networking').on('click', function() {
   $('.application').hide()
   $('.github').hide()
   $('.interviewskills').hide()
-  $('.huntr').hide()
+  $('.strategy').hide()
   $('.networking').slideDown()
+  $('.boards').hide()
+  }
+)
+
+$('.Strategy').on('click', function() {
+  $('.application').hide()
+  $('.github').hide()
+  $('.interviewskills').hide()
+  $('.strategy').slideDown()
+  $('.networking').hide()
+  $('.boards').hide()
   }
 )
 
@@ -125,6 +149,10 @@ $('.resumeheading').on('click', function() {
            $('#vancouver').slideUp()
            else{
              $('#vancouver').slideDown()
+             $('#toronto').hide()
+             $('#victoria').hide()
+             $('#calgary').hide()
+             $('#montreal').hide()
            }
            }
          )
@@ -133,6 +161,10 @@ $('.resumeheading').on('click', function() {
             $('#toronto').slideUp()
             else{
               $('#toronto').slideDown()
+              $('#vancouver').hide()
+              $('#victoria').hide()
+              $('#calgary').hide()
+              $('#montreal').hide()
             }
             }
           )
@@ -142,6 +174,10 @@ $('.resumeheading').on('click', function() {
              $('#victoria').slideUp()
              else{
                $('#victoria').slideDown()
+               $('#vancouver').hide()
+               $('#toronto').hide()
+               $('#calgary').hide()
+               $('#montreal').hide()
              }
              }
            )
@@ -151,6 +187,10 @@ $('.resumeheading').on('click', function() {
               $('#calgary').slideUp()
               else{
                 $('#calgary').slideDown()
+                $('#vancouver').hide()
+                $('#toronto').hide()
+                $('#victoria').hide()
+                $('#montreal').hide()
               }
               }
             )
@@ -160,6 +200,10 @@ $('.resumeheading').on('click', function() {
                $('#montreal').slideUp()
                else{
                  $('#montreal').slideDown()
+                 $('#vancouver').hide()
+                 $('#toronto').hide()
+                 $('#victoria').hide()
+                 $('#calgary').hide()
                }
                }
              )
