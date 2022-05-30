@@ -1,8 +1,7 @@
 body{
-  // background-color: #686868;
+  /* // background-color: #686868; */
   font-family: "proxima-nova", sans-serif;
   color: #ffffff;
-
 }
 
 #login-form{
@@ -44,7 +43,6 @@ body{
 .feedback{
     text-align: right;
     margin-right: 0.625rem;
-
 }
 
 .mainbuttons{
@@ -81,7 +79,7 @@ body{
 h1{
   text-align: center;
   font-family: 'Anton', sans-serif;
-//   text-transform: uppercase;
+/* //   text-transform: uppercase; */
   color: #ffffff;
   padding-top: 1.25rem;
   font-size: 3.125rem;
@@ -128,7 +126,6 @@ main{
   background-color: white;
   /* border-bottom: 0.1875rem solid cadetblue; */
   opacity: 0.95;
-
 }
 
 .button1{
@@ -233,7 +230,6 @@ h5 {
   font-size: 1.125rem;
   text-transform: uppercase;
   text-align:center;
-
 }
 
 .citybutton:hover{
