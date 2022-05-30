@@ -130,7 +130,7 @@ main{
 
 .button1{
   color: #676767;
-  align: left;
+  /* align: left; */
   border-radius: 5%;
   border-style: none;
   text-transform: uppercase;
