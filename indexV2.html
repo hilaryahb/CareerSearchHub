@@ -12,7 +12,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- App CSS -->
+  <link rel="stylesheet" href="./stylesheets/main.css">
   <link rel="stylesheet" href="./stylesheets/nav.css">
+  <link rel="stylesheet" href="./stylesheets/login.css">
+
+
+  <link rel="stylesheet" href="./stylesheets/footer.css">
+
   <link rel="stylesheet" href="/vendor/normalize-4.1.1.css" type="text/css" />
   <link rel="stylesheet" href="/vendor/border-box.css" type="text/css" />
 
@@ -79,17 +85,50 @@
   </header>
 
   <section id="login-form">
-    <div id="black">
+    <article class="login-border">
       <h1>
-        Career Search Hub.
+        Career Search Hub
       </h1>
-
-    <input id="password" type="text" placeholder="enter password">
-    <button value = "password" id="login-button">LOG IN</button>
-    </div>
+      <input id="password" class="m-2" type="text" placeholder="enter password">
+      <div class="m-2">
+        <button class="btn btn-outline-light" value="password" id="login-button">LOGIN</button>
+      </div>
+    </article>
   </section>
 
+  <main>
 
+  </main>
+
+
+  <footer class="footercontainer">
+    <section class="text-center text-lg-start bg-light text-muted">
+      <article class="d-flex justify-content-center justify-content-lg-between border-bottom">
+      </article>
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                Lighthouse Labs
+              </h6>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+              </h6>
+              <p>
+                <a href="careerservices@lighthouselabs.com" class="text-reset">Contact Career Services</a>
+              </p>
+              <p>
+                <a href="https://forms.gle/VU7bfXMw1rvyC6FJ7" class="text-reset">Leave Feedback</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </footer>
 
 </body>
 
