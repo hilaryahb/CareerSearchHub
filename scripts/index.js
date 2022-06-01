@@ -26,6 +26,7 @@ function load() {
     $('.application').hide()
   }
   )
+
   $('.GitHub').on('click', function () {
     $('.application').hide()
     $('.interviewskills').hide()
@@ -50,7 +51,6 @@ function load() {
     location.reload();
   }
   )
-
 
   $('.Networking').on('click', function () {
     $('.application').hide()
@@ -156,6 +156,7 @@ function load() {
     }
   }
   )
+  
   $('.toronto').on('click', function () {
     if ($('#toronto').css('display') !== 'none')
       $('#toronto').slideUp()
