@@ -1,7 +1,9 @@
-$(document).ready(function() {
+$(document).ready(function () {
   let mainContent = $('main').html()
   let nav = $('header').html()
   let footer = $('footer').html()
+  $('body').css('background-image', 'url("../images/work-space.webp")');
+  $('body').css('height', 'auto');
   $('header').empty()
   $('main').empty()
   $('footer').empty()
@@ -10,6 +12,7 @@ $(document).ready(function() {
     if (password === 'LHLCS') {
       setTimeout(() => {
         console.log(password)
+        $('body').css('background-image', 'none');
         $('#login-form').hide()
         $('main').html(mainContent)
         $('header').html(nav)
