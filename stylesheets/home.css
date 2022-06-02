@@ -26,6 +26,14 @@
   margin-bottom: 1rem;
 }
 
+
+
+@media only screen and (max-width: 600px) {
+  .clear {
+    height: 60rem;
+  }
+}
+
 @media only screen and (max-width: 380px) {
   .card-scroll {
     overflow-y: scroll;
@@ -48,5 +56,4 @@
   footer {
     position: relative;
   }
-
 }
