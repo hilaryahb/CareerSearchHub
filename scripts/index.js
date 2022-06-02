@@ -7,7 +7,7 @@ function load() {
   $('.resume').hide()
   $('.boards').hide()
 
-  $('.applications').on('click', function () {
+  $('.Applications').on('click', function () {
     $('.github').hide()
     $('.interviewskills').hide()
     $('.networking').hide()
@@ -37,7 +37,7 @@ function load() {
   }
   )
 
-  $('.interviews').on('click', function () {
+  $('.Interviews').on('click', function () {
     $('.application').hide()
     $('.github').hide()
     $('.networking').hide()
