@@ -11,6 +11,22 @@ function load() {
     location.reload();
   })
 
+  $('.Category-card').on('click', function () {
+    $('.Category-card').hide()
+  })
+
+  // Get Started === Strategy
+  $('.Strategy').on('click', function () {
+    $('.application').hide()
+    $('.github').hide()
+    $('.interviewskills').hide()
+    $('.strategy').slideDown()
+    $('.networking').hide()
+    $('.boards').hide()
+    $('.Category-card').hide()
+  })
+
+  // Docs === Applications
   $('.Applications').on('click', function () {
     $('.github').hide()
     $('.interviewskills').hide()
@@ -18,6 +34,7 @@ function load() {
     $('.strategy').hide()
     $('.application').slideDown()
     $('.boards').hide()
+    $('.Category-card').hide()
   })
 
   $('.JobBoards').on('click', function () {
@@ -27,6 +44,7 @@ function load() {
     $('.strategy').hide()
     $('.boards').slideDown()
     $('.application').hide()
+    $('.Category-card').hide()
   })
 
   $('.GitHub').on('click', function () {
@@ -36,6 +54,7 @@ function load() {
     $('.strategy').hide()
     $('.github').slideDown()
     $('.boards').hide()
+    $('.Category-card').hide()
   })
 
   $('.Interviews').on('click', function () {
@@ -45,6 +64,7 @@ function load() {
     $('.strategy').hide()
     $('.interviewskills').slideDown()
     $('.boards').hide()
+    $('.Category-card').hide()
   })
 
   $('.Networking').on('click', function () {
@@ -54,15 +74,7 @@ function load() {
     $('.strategy').hide()
     $('.networking').slideDown()
     $('.boards').hide()
-  })
-
-  $('.Strategy').on('click', function () {
-    $('.application').hide()
-    $('.github').hide()
-    $('.interviewskills').hide()
-    $('.strategy').slideDown()
-    $('.networking').hide()
-    $('.boards').hide()
+    $('.Category-card').hide()
   })
 
   $('.resumeheading').on('click', function () {
@@ -140,7 +152,7 @@ function load() {
       $('#montreal').hide()
     }
   })
-  
+
   $('.toronto').on('click', function () {
     if ($('#toronto').css('display') !== 'none')
       $('#toronto').slideUp()
