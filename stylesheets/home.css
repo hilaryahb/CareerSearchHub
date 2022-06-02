@@ -31,7 +31,10 @@
     overflow-y: scroll;
     height: 100vh;
     margin-top: 1rem;
-    margin-bottom: 9rem;
+  }
+
+  .clear {
+    height: 10rem;
   }
 
   .fa-stack.fa-2x {
@@ -40,6 +43,10 @@
   
   .icon-attr {
   margin: 0.5rem;
+  }
+
+  footer {
+    position: relative;
   }
 
 }
