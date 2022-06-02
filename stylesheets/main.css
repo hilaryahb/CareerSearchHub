@@ -1,5 +1,6 @@
 body {
-  margin-top: 10rem !important;
+  overflow-x: hidden;
+  margin-top: 7rem !important;
 }
 
 h1, h2 {
