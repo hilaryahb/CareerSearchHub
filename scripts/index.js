@@ -11,9 +11,9 @@ function load() {
     location.reload();
   })
 
-  $('.Category-card').on('click', function () {
-    $('.Category-card').hide()
-  })
+  // $('.Category-card').on('click', function () {
+  //   $('.Category-card').hide()
+  // })
 
   // Get Started === Strategy
   $('.Strategy').on('click', function () {
