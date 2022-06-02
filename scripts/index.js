@@ -7,6 +7,10 @@ function load() {
   $('.resume').hide()
   $('.boards').hide()
 
+  $('.gohome').on('click', function () {
+    location.reload();
+  })
+
   $('.Applications').on('click', function () {
     $('.github').hide()
     $('.interviewskills').hide()
@@ -14,8 +18,7 @@ function load() {
     $('.strategy').hide()
     $('.application').slideDown()
     $('.boards').hide()
-  }
-  )
+  })
 
   $('.JobBoards').on('click', function () {
     $('.github').hide()
@@ -24,8 +27,7 @@ function load() {
     $('.strategy').hide()
     $('.boards').slideDown()
     $('.application').hide()
-  }
-  )
+  })
 
   $('.GitHub').on('click', function () {
     $('.application').hide()
@@ -34,8 +36,7 @@ function load() {
     $('.strategy').hide()
     $('.github').slideDown()
     $('.boards').hide()
-  }
-  )
+  })
 
   $('.Interviews').on('click', function () {
     $('.application').hide()
@@ -44,13 +45,7 @@ function load() {
     $('.strategy').hide()
     $('.interviewskills').slideDown()
     $('.boards').hide()
-  }
-  )
-
-  $('.gohome').on('click', function () {
-    location.reload();
-  }
-  )
+  })
 
   $('.Networking').on('click', function () {
     $('.application').hide()
@@ -59,8 +54,7 @@ function load() {
     $('.strategy').hide()
     $('.networking').slideDown()
     $('.boards').hide()
-  }
-  )
+  })
 
   $('.Strategy').on('click', function () {
     $('.application').hide()
@@ -69,8 +63,7 @@ function load() {
     $('.strategy').slideDown()
     $('.networking').hide()
     $('.boards').hide()
-  }
-  )
+  })
 
   $('.resumeheading').on('click', function () {
     if ($('#resume').css('display') !== 'none')
@@ -78,8 +71,7 @@ function load() {
     else {
       $('#resume').slideDown()
     }
-  }
-  )
+  })
 
   $('.portfoliosheading').on('click', function () {
     if ($('#portfolio').css('display') !== 'none')
@@ -87,8 +79,7 @@ function load() {
     else {
       $('#portfolio').slideDown()
     }
-  }
-  )
+  })
 
   $('.coverletterheading').on('click', function () {
     if ($('#coverletter').css('display') !== 'none')
@@ -96,8 +87,7 @@ function load() {
     else {
       $('#coverletter').slideDown()
     }
-  }
-  )
+  })
 
   $('.jobboardheading').on('click', function () {
     if ($('#jobboard').css('display') !== 'none')
@@ -105,8 +95,7 @@ function load() {
     else {
       $('#jobboard').slideDown()
     }
-  }
-  )
+  })
 
   $('.prepheading').on('click', function () {
     if ($('#prep').css('display') !== 'none')
@@ -114,8 +103,7 @@ function load() {
     else {
       $('#prep').slideDown()
     }
-  }
-  )
+  })
 
   $('.culturefitheading').on('click', function () {
     if ($('#culturefit').css('display') !== 'none')
@@ -123,8 +111,7 @@ function load() {
     else {
       $('#culturefit').slideDown()
     }
-  }
-  )
+  })
 
   $('.techinterviewheading').on('click', function () {
     if ($('#techinterview').css('display') !== 'none')
@@ -132,8 +119,7 @@ function load() {
     else {
       $('#techinterview').slideDown()
     }
-  }
-  )
+  })
 
   $('.followupheading').on('click', function () {
     if ($('#followup').css('display') !== 'none')
@@ -141,8 +127,7 @@ function load() {
     else {
       $('#followup').slideDown()
     }
-  }
-  )
+  })
 
   $('.vancouver').on('click', function () {
     if ($('#vancouver').css('display') !== 'none')
@@ -154,8 +139,7 @@ function load() {
       $('#calgary').hide()
       $('#montreal').hide()
     }
-  }
-  )
+  })
   
   $('.toronto').on('click', function () {
     if ($('#toronto').css('display') !== 'none')
@@ -167,8 +151,7 @@ function load() {
       $('#calgary').hide()
       $('#montreal').hide()
     }
-  }
-  )
+  })
 
   $('.victoria').on('click', function () {
     if ($('#victoria').css('display') !== 'none')
@@ -180,8 +163,7 @@ function load() {
       $('#calgary').hide()
       $('#montreal').hide()
     }
-  }
-  )
+  })
 
   $('.calgary').on('click', function () {
     if ($('#calgary').css('display') !== 'none')
@@ -193,8 +175,7 @@ function load() {
       $('#victoria').hide()
       $('#montreal').hide()
     }
-  }
-  )
+  })
 
   $('.montreal').on('click', function () {
     if ($('#montreal').css('display') !== 'none')
@@ -206,7 +187,5 @@ function load() {
       $('#victoria').hide()
       $('#calgary').hide()
     }
-  }
-  )
-
+  })
 }
