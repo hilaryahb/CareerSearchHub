@@ -1,6 +1,10 @@
 $(document).ready(function() {
   let mainContent = $('main').html()
+  let nav = $('header').html()
+  let footer = $('footer').html()
+  $('header').empty()
   $('main').empty()
+  $('footer').empty()
   $('#login-button').click(() => {
     let password = $('#password').val()
     if (password === 'LHLCS') {
@@ -8,6 +12,8 @@ $(document).ready(function() {
         console.log(password)
         $('#login-form').hide()
         $('main').html(mainContent)
+        $('header').html(nav)
+        $('footer').html(footer)
         load()
       }, 400)
     } else {
