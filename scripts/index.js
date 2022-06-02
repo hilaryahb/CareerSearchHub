@@ -11,6 +11,16 @@ function load() {
     location.reload();
   })
 
+  $('.Home').on('click', function () {
+    $('.application').hide()
+    $('.github').hide()
+    $('.interviewskills').hide()
+    $('.strategy').hide()
+    $('.networking').hide()
+    $('.boards').hide()
+    $('.Category-card').slideDown()
+  })
+
   // Get Started === Strategy
   $('.Strategy').on('click', function () {
     $('.application').hide()
