@@ -4,10 +4,12 @@
   margin-top: 15rem;
   text-align: center;
   color: white;
+  opacity: 0.5;
 }
 
 .login-border {
-  background: #2980b9;
+  /* background: #2980b9; */
+  background: #485665;
   width: auto;
   border-radius: 0.375rem;
   padding: 1.5rem;
