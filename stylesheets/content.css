@@ -1,0 +1,13 @@
+.content-position {
+  margin-top: -3.10rem;
+}
+
+.right-content-col {
+  border-left: #e6e6e6 0.15rem solid;
+  height: 100vh;
+}
+
+.left-content-col {
+  border-right: #e6e6e6 0.15rem solid;
+  height: 100vh;
+}
