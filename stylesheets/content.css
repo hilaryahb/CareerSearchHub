@@ -65,24 +65,24 @@
   justify-content: space-between;
 }
 
-.networkingbuttons{
+.networkingbuttons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.citybutton{
+.citybutton {
   width: 8.75rem;
   height: 3.75rem;
-  border-color: #ffffff;
-  background-color:cadetblue;
-  color: #ffffff;
+  /* border-color: #ffffff; */
+  /* background-color:cadetblue; */
+  /* color: #ffffff; */
   border-radius: 1.875rem 1.875rem;
   border-style: solid;
   border-width: 0.125rem;
   font-size: 1.125rem;
   text-transform: uppercase;
-  text-align:center;
+  text-align: center;
 }
 
 #resume, #portfolio, #coverletter, #jobboard, #prep, #culturefit,
@@ -90,7 +90,7 @@
     display: none;
 }
 
-#stretch{
+#stretch {
   display: inline-block;
   align-items: left;
   font-size: 1.25rem;
