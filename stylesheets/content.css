@@ -11,3 +11,15 @@
   border-right: #e6e6e6 0.15rem solid;
   height: 100vh;
 }
+
+@media only screen and (max-width: 1000px) {
+  .right-content-col {
+    border-left: 0;
+    height: 0;
+  }
+  
+  .left-content-col {
+    border-right: 0;
+    height: 0;
+  }
+}
