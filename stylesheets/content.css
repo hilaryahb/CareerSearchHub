@@ -2,6 +2,10 @@
   margin-top: -3.10rem;
 }
 
+.content-adjustment {
+  margin-bottom: 10rem;
+}
+
 .right-content-col {
   border-left: #e6e6e6 0.15rem solid;
   height: auto;
