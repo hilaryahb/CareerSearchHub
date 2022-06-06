@@ -4,12 +4,94 @@
 
 .right-content-col {
   border-left: #e6e6e6 0.15rem solid;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
 }
 
 .left-content-col {
   border-right: #e6e6e6 0.15rem solid;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
+}
+
+#vancouver, #toronto, #victoria, #calgary, #montreal{
+  padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+  background-color: #F5F5F5;
+}
+
+#resume, #portfolio, #coverletter, #jobboard, #prep, #culturefit,
+#techinterview, #followup, #vancouver, #toronto, #victoria, #calgary, #montreal{
+    display: none;
+}
+
+#resume, #portfolio, #coverletter, #jobboard, #prep, #culturefit, #techinterview, #followup{
+  /* background-color: #f6fbfc; */
+  border-left: 0.125rem solid CadetBlue;
+  padding-left: 1.25rem;
+  margin-left: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+#stretch{
+  display: inline-block;
+  align-items: left;
+  font-size: 1.25rem;
+  opacity: 0.25;
+  transform: scaleX(2);
+  padding-left: 0.3125rem;
+}
+
+#underline{
+  /* border-bottom: 0.1875rem solid CadetBlue;
+   color: cadetblue;
+    background-color: CadetBlue;*/
+  padding-left: 0.1875rem;
+  padding-right: 0.3125rem;
+}
+
+.underline{
+  display: flex;
+  flex-direction: row;
+}
+
+.resume{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.networkingbuttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.citybutton{
+  width: 8.75rem;
+  height: 3.75rem;
+  border-color: #ffffff;
+  background-color:cadetblue;
+  color: #ffffff;
+  border-radius: 1.875rem 1.875rem;
+  border-style: solid;
+  border-width: 0.125rem;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  text-align:center;
+}
+
+#resume, #portfolio, #coverletter, #jobboard, #prep, #culturefit,
+#techinterview, #followup, #vancouver, #toronto, #victoria, #calgary, #montreal{
+    display: none;
+}
+
+#stretch{
+  display: inline-block;
+  align-items: left;
+  font-size: 1.25rem;
+  opacity: 0.25;
+  transform: scaleX(2);
+  padding-left: 0.3125rem;
 }
 
 @media only screen and (max-width: 1000px) {
