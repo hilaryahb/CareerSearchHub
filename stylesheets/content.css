@@ -36,15 +36,14 @@
   margin-bottom: 1.25rem;
 }
  
-#stretch {
+/* #stretch {
   display: inline-block;
   align-items: left;
   font-size: 1.25rem;
   opacity: 0.25;
   transform: scaleX(2);
   padding-left: 0.3125rem;
-  cursor: pointer;
-}
+} */
 
 /* #underline{
   border-bottom: 0.1875rem solid CadetBlue;
@@ -82,15 +81,6 @@
 #resume, #portfolio, #coverletter, #jobboard, #prep, #culturefit,
 #techinterview, #followup, #vancouver, #toronto, #victoria, #calgary, #montreal{
     display: none;
-}
-
-#stretch {
-  display: inline-block;
-  align-items: left;
-  font-size: 1.25rem;
-  opacity: 0.25;
-  transform: scaleX(2);
-  padding-left: 0.3125rem;
 }
 
 @media only screen and (max-width: 1000px) {
