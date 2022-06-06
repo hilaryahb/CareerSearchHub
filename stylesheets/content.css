@@ -68,12 +68,14 @@
 .networkingbuttons {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .citybutton {
   width: 8.75rem;
   height: 3.75rem;
+  margin: 0.5rem;
   text-transform: uppercase;
 }
 
