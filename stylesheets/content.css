@@ -78,6 +78,10 @@
   text-transform: uppercase;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 #resume, #portfolio, #coverletter, #jobboard, #prep, #culturefit,
 #techinterview, #followup, #vancouver, #toronto, #victoria, #calgary, #montreal{
     display: none;
