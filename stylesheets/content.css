@@ -23,7 +23,7 @@
   background-color: #F5F5F5;
 }
 
-#resume, #portfolio, #coverletter, #jobboard, #prep, #culturefit,
+#resume, #portfolio, #web-portfolio, #coverletter, #jobboard, #prep, #culturefit,
 #techinterview, #followup, #vancouver, #toronto, #victoria, #calgary, #montreal {
     display: none;
 }
