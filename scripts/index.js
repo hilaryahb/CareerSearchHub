@@ -107,6 +107,14 @@ function load() {
     }
   })
 
+  $('.data-heading').on('click', function () {
+    if ($('#data-portfolio').css('display') !== 'none')
+      $('#data-portfolio').slideUp()
+    else {
+      $('#data-portfolio').slideDown()
+    }
+  })
+
   $('.coverletterheading').on('click', function () {
     if ($('#coverletter').css('display') !== 'none')
       $('#coverletter').slideUp()
