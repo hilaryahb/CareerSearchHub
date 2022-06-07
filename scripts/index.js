@@ -99,6 +99,14 @@ function load() {
     }
   })
 
+  $('.web-heading').on('click', function () {
+    if ($('#web-portfolio').css('display') !== 'none')
+      $('#web-portfolio').slideUp()
+    else {
+      $('#web-portfolio').slideDown()
+    }
+  })
+
   $('.coverletterheading').on('click', function () {
     if ($('#coverletter').css('display') !== 'none')
       $('#coverletter').slideUp()
