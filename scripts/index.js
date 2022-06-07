@@ -115,6 +115,14 @@ function load() {
     }
   })
 
+  $('.cyber-heading').on('click', function () {
+    if ($('#cyber-portfolio').css('display') !== 'none')
+      $('#cyber-portfolio').slideUp()
+    else {
+      $('#cyber-portfolio').slideDown()
+    }
+  })
+
   $('.coverletterheading').on('click', function () {
     if ($('#coverletter').css('display') !== 'none')
       $('#coverletter').slideUp()
